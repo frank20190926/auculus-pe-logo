@@ -1,0 +1,1 @@
+const vectors = [{"dark": "auculus-marque-1-dark.svg", "light": "auculus-marque-1-light.svg", "icon": "auculus-marque-1-icon.svg"}, {"dark": "auculus-marque-2-dark.svg", "light": "auculus-marque-2-light.svg", "icon": "auculus-marque-2-icon.svg"}, {"dark": "auculus-marque-3-dark.svg", "light": "auculus-marque-3-light.svg", "icon": "auculus-marque-3-icon.svg"}];
