@@ -2,3 +2,12 @@
 .specimens{grid-template-columns:minmax(0,1fr) minmax(0,1.08fr) minmax(0,1.22fr)}.specimens article{min-width:0}.board{padding-top:20px}.lockups{height:300px}.intro{height:104px}.specimens{height:258px;margin-top:18px}.colophon{margin-top:10px}@media(max-width:760px){.lockups{height:auto}.intro{height:auto}.specimens{height:auto}}
 .board{padding-bottom:10px}.specimens{height:248px}footer{margin-top:8px}.colophon{margin-top:6px}
 .slide{width:min(100%,337.7778px);height:190px;margin-inline:auto;aspect-ratio:16/9}.slide h3{font-size:27px}@media(max-width:760px){.specimens{height:auto}.slide{width:100%;height:auto}.slide h3{font-size:30px}}
+/* claude-showcase */
+.topbar{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;padding:10px 0;border-bottom:1px solid var(--line);font-size:9px;letter-spacing:1.4px}
+.topbar .dl{display:flex;gap:8px;flex-wrap:wrap}.topbar a{color:var(--ink);text-decoration:none;border:1px solid var(--line);padding:7px 10px}.topbar a.zip{background:var(--navy);color:var(--silver);border-color:var(--navy)}.topbar a.zip:hover{background:#14213a}
+.cmp{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:18px}.cmp button{display:block;text-align:left;border:1px solid var(--line);background:#fff;padding:0}.cmp button.selected{border-color:#9A7220;box-shadow:0 0 0 1px #9A7220}
+.cmp .pn{height:150px;position:relative}.cmp .pn svg{position:absolute;inset:0;width:100%;height:100%;padding:8px}.cmp .pn+.pn{border-top:1px solid var(--line)}.cmp .meta{padding:10px 12px;font-size:9px;line-height:1.6;color:#3b4859}.cmp .meta b{font:600 18px 'Cormorant Garamond',serif;color:var(--ink);display:block}
+.world{margin-top:26px}.world h2{margin-bottom:10px}.tri{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}.tri>div{border:1px solid var(--line);overflow:hidden}.tri svg{display:block;width:100%;height:auto}
+.deckpair{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}.deckpair>div{border:1px solid var(--line);overflow:hidden}.deckpair svg{display:block;width:100%;height:auto}
+.world .lead{font-size:9px;color:#596779;margin:0 0 12px}
+.dk{background:var(--navy);color:var(--silver)}.lt{background:var(--paper)}
